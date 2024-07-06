@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "rtdfabricmod",
+  "version": "${version}",
+  "name": "rtdFabricMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/neon/rtdFabricMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/rtdfabricmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.giga.rtdfabricmod.RtdFabricMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
